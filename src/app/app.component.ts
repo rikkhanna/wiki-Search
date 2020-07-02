@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wsearch';
+
+  onSearchTerm(term: string){
+    console.log("Term:",term);
+  }
 }
