@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-page-list',
@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageListComponent implements OnInit {
 
+  @Input() pages = [];
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  
 }
